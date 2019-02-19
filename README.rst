@@ -1,16 +1,14 @@
 =========
-myproject
+Yasmeen can't believe that she made a project!
 =========
 
 
-Add a short description here!
-
+This will be a quest to code mind numbingly easy tasks with severe difficulty
 
 Description
 ===========
 
-A longer description of your project goes here...
-
+This will be a reflection of my personal ability (or lack thereof)
 
 Note
 ====
