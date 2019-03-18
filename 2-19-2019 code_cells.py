@@ -34,6 +34,7 @@ d = {
 
 d2 = dict(
     Sam='hiking'
+    Yasmeen='drawing'
 )
 
 # %%
