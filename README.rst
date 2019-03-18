@@ -1,9 +1,10 @@
 =========
-Yasmeen can't believe that she made a project!
+BIOF209 2/19/2019 New Solo Project
 =========
 
 
-This will be a quest to code mind numbingly easy tasks with severe difficulty
+Testing out how to make a new project
+
 
 Description
 ===========
