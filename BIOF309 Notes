@@ -1,4 +1,4 @@
-# 2/19/2019 -- Get Git Repository on Local Computer + Commit/Push Files from Local Repository
+2/19/2019 -- Get Git Repository on Local Computer + Commit/Push Files from Local Repository
 Must complete three assignments for BIOF309:
 1.	Final Project (uploaded to https://github.com/biof309/spring2019-datacamp-certificates-YasmeenAjaj.git)
 2.	One of the 28-60 hour classes from Plural Sight
@@ -34,6 +34,64 @@ Commit by clicking the small green checkmark at the top right of the project win
 Push by pressing “ ctrl > shift > K” to take you to the “PUSH” window. PUSH it. A notification will say “push successful.”
 
 Group project: https://github.com/biof309/spring2019-group-project-c-l-u-e-l-e-s-s
+I’m all alone here. I can’t escape. I can only be part of one group project. ☹
+Go to my group project page using the link below and finding it. Set it up as VISIBLE in “settings” – it starts as private!
+BIOF309 Teams Page: https://github.com/biof309
 
-PROJECT #3: SLIDE DECK GROUP ACTIVITY
-https://github.com/biof309/group-activity
+Dictionaries:
+Dictionaries are sequence types that have key:value pairs. Two ways to make a dictionary:
+#1
+d = { ‘name’ : ‘interest’
+      ‘name2’: ‘interest2’
+}
+The name is the “key” and the interests are “values”. You can set up the same dictionary by using the “dict” function.
+#2
+
+d2 = dict(
+        Sam=’hiking’
+        Yameen=’drawing’
+)
+
+How to merge dictionaries:
+Two ways:
+#1
+Between two curly braces, add two asterisks, the name of the dictionary, a comma and repeat for each new dictionary you want to merge:
+#%% New code cell
+{**d, **d2}
+Run the code cell by clicking the green play arrow to the left of the code cell. It should merge the two dictionaries!
+** means “unpacking”
+#2
+Using the dict() function:
+dict(**d1, **d2)
+Also merges by using a function instead of curly braces.
+
+Let’s  merge lists:
+#%%
+l1 = [1, 2, 3]
+l2 = list(range3, 6) (list of 3, 4, 5, excludes last number of the range)
+#%%
+[*l1, *l2]
+Gives us: [1, 2, 3, 3, 4, 5]
+One star for lists because there is a single element! Two stars for dict because two elements (key/value pair)
+
+Two ways to make an empty dictionary:
+#1
+d={}
+#2
+d=dict()
+
+Let’s try to unpack a list into a dictionary (which shouldn’t be meaningful or work since there are a different number of values)
+d = dict(zip(l1, l2))
+Gives us: {1: 3, 2: 4, 3: 5} (pairs the values of each list in order)
+l1      l2
+1   -    3
+2    -   4
+3   -    5
+zip() = to pair (aka creates tuples/bunches, and each tuple is a pair) [(1, 3), (2, 4), (3, 5)]
+If there are more elements in one list than another, it will just pair the values until one list runs out of values, leaving the values from the linger list unpaired and not included in the zipped/paired dictionary.
+
+Unpacking with multiple assignments:
+a, *b = l2
+a takes the first element of l2 and b takes the rest, another way to unpack singular elements from a list.
+Run a, gives us: 3
+Run b, gives us: [4, 5] (b without an asterisk because the asterisk is not part of the name!)
