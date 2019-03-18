@@ -1,0 +1,39 @@
+# 2/19/2019 -- Get Git Repository on Local Computer + Commit/Push Files from Local Repository
+Must complete three assignments for BIOF309:
+1.	Final Project (uploaded to https://github.com/biof309/spring2019-datacamp-certificates-YasmeenAjaj.git)
+2.	One of the 28-60 hour classes from Plural Sight
+3.	Slide Deck (uploaded to https://github.com/biof309/spring2019-datacamp-certificates-YasmeenAjaj.git)
+Using GitHub:
+Must use Git to ensure all your edits on local computer are appended to your online remote repository. You can use the Github interface to make edits, but it’s more convenient to make local edits and push them to the repository to save them. Allows you to use any computer to pull your project and save it. If you lose/damage your laptop, everything is saved (like using Google Docs).
+
+To upload/clone in my Git repository onto my local computer (make sure Git is downloaded):
+This is my path: C:\Users\ajajy2\spring2019-datacamp-certificates-YasmeenAjaj
+Here is how I created it (using the link Martin provided):
+Close projects (ctrl shift A, type close project) > check out from version control > Git > (log into Git) > paste in URL https://github.com/biof309/spring2019-datacamp-certificates-YasmeenAjaj.git (directory is C:\Users\ajajy2)
+
+To make a new README.md file (markdown file):
+File > new > file > name it README.md > popup window: add new file to Git? > add (README.md file appears in side bar as green text) (Fig 1)
+You can add the file to your repo if you haven’t already with “ctrl > shift > A” and typing “add,” which will show you that the shortcut for adding a file to the repo is “ctrl > alt > A”
+If you type in “#A markdown file” PyCharm will give you a preview in the Python Console of the text without the stylization of Python language. It will create a “header” text. You can then put some text below the header and it will be some text below the header/title.
+The markdown page is the first thing people see when they go to your repository. You can turn a markdown file into a slide deck presentation. More on “HTML slide decks made from markdown files” made from open source code next class.
+
+
+
+How to commit and push changes to your Git repository:
+“Ctrl > K” brings up a “COMMIT WINDOW.” It highlights the file that’s been added as well as a commit message that you can customize/add a note to for your own information. Then click on the green text “README.md file > enter” to see the history of changes made. Everything in green is what’s added. COMMIT it.
+Then press “ ctrl > shift > K” to take you to the “PUSH” window. PUSH it. A notification will say “push successful.”
+Refresh the website page. The README.md file should appear! Click on the file, and you should see the header and text appear as it did on the Python console preview.
+PROJECT #1: PLURALSIGHT HOMEWORK All that goes here is a SCREENSHOT OR PDF OF MY CERTIFICATE FROM PLURALSIGHT OR DATACAMP HOMEWORK MODULES! This will be graded at the end of the semester!
+
+PROJECT #2: GROUP AND SOLO PROJECTS
+Solo project: https://classroom.github.com/assignment-invitations/05b272ed66d58ff7dafb84488cb01c3b/success
+Do the same thing as we did above: close project, select new version control, log into Git, and paste in the link above to link the SOLO PROJECT repo to my local computer.
+There are a few files already made by Martin. The READMR.rst file is a “restructured text” which is rendered to look nice on the repo URL page for the README file.
+Edit the README.rst file to have my own project name and description. The README.rst text on the sidebar will turn from green to blue text, meaning changes are being made but it wasn’t committed to pushed yet.
+Commit by clicking the small green checkmark at the top right of the project window, or as detailed above.
+Push by pressing “ ctrl > shift > K” to take you to the “PUSH” window. PUSH it. A notification will say “push successful.”
+
+Group project: https://github.com/biof309/spring2019-group-project-c-l-u-e-l-e-s-s
+
+PROJECT #3: SLIDE DECK GROUP ACTIVITY
+https://github.com/biof309/group-activity
