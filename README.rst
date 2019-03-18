@@ -9,7 +9,7 @@ Testing out how to make a new project
 Description
 ===========
 
-This will be a reflection of my personal ability (or lack thereof)
+Followed from Martin's demo on 2/19/2019
 
 Note
 ====
